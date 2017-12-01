@@ -1,10 +1,12 @@
 {
-  "name": "framework7-vue-webpack-template",
+  "name": "f7-vue-webpack-cordova-template",
   "version": "1.0.1",
-  "description": "Framework7 Vue + Webpack starter app template",
+  "description": "Framework7 Vue + Webpack starter app template + Cordova",
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "build-apk": "npm run build && cd cordova && cordova build",
+    "android": "npm run build && cd cordova && cordova run android"
   },
   "repository": {
     "type": "git",
