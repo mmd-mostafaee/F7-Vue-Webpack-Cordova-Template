@@ -1,5 +1,7 @@
 # Framework7 Vue + Webpack App Template
 
+# __Update Dependencies__ 
+
 A full-featured Framework7 + Vue + Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
 
 ## Build Setup
