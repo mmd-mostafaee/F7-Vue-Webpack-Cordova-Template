@@ -13,6 +13,13 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+# build vue and build apk 
+npm run build-apk
+
+# build serve cordova for android
+npm run android
+
 ```
 
 ## Project Structure
